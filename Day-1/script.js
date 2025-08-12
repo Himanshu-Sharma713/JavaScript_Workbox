@@ -1,5 +1,7 @@
 // Learn JavaScript
 
+document.writeln("<h1>Start Learning JavaScript...</h1>")
+
 console.log("Hello, World!");
 
 var fullName = "Himanshu Sharma";
