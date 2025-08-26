@@ -15,5 +15,5 @@ let brr = [10, 2, 3, 4, 50];
 // let res = arr.concat(brr);
 // console.log(res);
 
-let res = arr.join(brr);
+let res = arr.join("_");
 console.log(res);
