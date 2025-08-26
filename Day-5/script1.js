@@ -1,8 +1,8 @@
 // functions
-let name = "Himanshu Sharma";
+let userName = "Himanshu Sharma";
 let age = 22;
 function sayHello() {
-  console.log(`Hello, My Name is: ${name}, My Age is: ${age}....`);
+  console.log(`Hello, My Name is: ${userName}, My Age is: ${age}....`);
 }
 
 sayHello();
@@ -21,4 +21,9 @@ const functionExpression = function (a, b) {
 };
 
 functionExpression(5, 4);
-            
+
+function sum(a, b) {
+  return a + b;
+}
+
+console.log(sum(99, 77));
