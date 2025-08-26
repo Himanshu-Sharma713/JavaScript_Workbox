@@ -1,5 +1,5 @@
-let arr = [1, 2, 3, 4, 5];
-let brr = [10, 20, 30, 40, 50];
+let arr = [1, 20, 30, 40, 5];
+let brr = [10, 2, 3, 4, 50];
 
 // let res = arr.includes(3);
 // console.log(res);
@@ -12,5 +12,8 @@ let brr = [10, 20, 30, 40, 50];
 // arr.shift();
 // console.log(arr);
 
-let res = arr.concat(brr);
+// let res = arr.concat(brr);
+// console.log(res);
+
+let res = arr.join(brr);
 console.log(res);
