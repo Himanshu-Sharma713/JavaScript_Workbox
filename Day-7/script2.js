@@ -1,6 +1,6 @@
 // String
 
-let str = "Himanshu Sharma";
+let str = "My Name is Himanshu Sharma";
 str = str.toLowerCase();
 let num = 0;
 
