@@ -2,21 +2,24 @@
 
 let arr = [4, 33, 1, 2, 7, 88, 91, 15];
 let largestNumber = Number.MIN_VALUE;
+let largestNumberIndex;
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] > largestNumber) {
     largestNumber = arr[i];
+    largestNumberIndex = i;
   }
 }
 
 console.log("Largest Number is: ", largestNumber);
 
-// Find the Smallest number in array
+// Find the Second Largest number in array
 
-let smallestNumber = Number.MAX_VALUE;
+arr[largestNumberIndex] = Number.MIN_VALUE;
+let secondLargestNumber = Number.MIN_VALUE;
 for (let i = 0; i < arr.length; i++) {
-  if (arr[i] < smallestNumber) {
-    smallestNumber = arr[i];
+  if (arr[i] > secondLargestNumber) {
+    secondLargestNumber = arr[i];
   }
 }
 
-console.log("Smallest Number is: ", smallestNumber);
+console.log("Second Largest Number is: ", secondLargestNumber);
