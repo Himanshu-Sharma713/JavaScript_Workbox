@@ -39,3 +39,4 @@ for (const ele of arr) {
 
 console.log("Number of One: ", one);
 console.log("Number of Zero: ", zero);
+console.log("Sum of One and Zero: ", one + zero);
