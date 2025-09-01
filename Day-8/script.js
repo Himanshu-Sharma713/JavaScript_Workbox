@@ -12,9 +12,18 @@
 // }
 
 function Car(make, model, year) {
-  this.make = make; 
+  this.make = make;
   this.model = model;
   this.year = year;
 }
 
 const car1 = new Car("Eagle", "Talon TSi", 1993);
+
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+}
+
+const rectangle = new Rectangle(10, 10);
