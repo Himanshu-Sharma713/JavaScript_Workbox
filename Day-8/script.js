@@ -27,3 +27,4 @@ class Rectangle {
 }
 
 const rectangle = new Rectangle(10, 10);
+
