@@ -8,16 +8,23 @@ map.set("Hobbies", ["Reading", "Listening Music", "Travelling"]);
 map.set("isTrue", true);
 
 console.log(map);
-console.log(map.has("agel"));
-console.log(map.has("Age"));
+// console.log(map.has("agel"));
+// console.log(map.has("Age"));
 
-console.log(map.get("fullName"));
-console.log(map.get("FullName"));
+// console.log(map.get("fullName"));
+// console.log(map.get("FullName"));
 
-console.log(map.size);
+// console.log(map.size);
 
-// map.clear();
+// // map.clear();
 
-map.delete("isTrue");
-console.log(map.size);
-console.log(map);
+// map.delete("isTrue");
+// console.log(map.size);
+// console.log(map);
+
+// console.log(map.keys());
+// console.log(map.values());
+
+for (let [key, value] of map) {
+  console.log(`${key} => ${value}`);
+}
