@@ -29,21 +29,21 @@
 //   console.log(`${key} => ${value}`);
 // }
 
-let set = new Set();
-set.add("Himanshu Sharma");
-set.add(22);
-set.add("himanshusb713@gmail.com");
+let mySet = new Set();
+mySet.add("Himanshu");
+mySet.add("Deepak");
+mySet.add("Abhay");
 
-console.log(set);
+// console.log(mySet);
 
-console.log(set.values());
-console.log(set.entries());
+// console.log(mySet.values());
+// console.log(mySet.entries());
 
-console.log(set.size);
-// set.clear();
-// set.delete(22);
-// console.log(set.size);
+// console.log(mySet.size);
+// mySet.clear();
+// mySet.delete(22);
+// console.log(mySet.size);
 
-for (const val of set) {
-  console.log(val);
+for (let [key, value] of mySet) {
+  console.log(key + " = " + value);
 }
