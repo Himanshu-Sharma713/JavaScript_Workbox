@@ -8,3 +8,8 @@ map.set("Hobbies", ["Reading", "Listening Music", "Travelling"]);
 map.set("isTrue", true);
 
 console.log(map);
+console.log(map.has("agel"));
+console.log(map.has("Age"));
+
+console.log(map.get("fullName"));
+console.log(map.get("FullName"));
