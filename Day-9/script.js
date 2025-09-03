@@ -30,3 +30,20 @@
 // }
 
 let set = new Set();
+set.add("Himanshu Sharma");
+set.add(22);
+set.add("himanshusb713@gmail.com");
+
+console.log(set);
+
+console.log(set.values());
+console.log(set.entries());
+
+console.log(set.size);
+// set.clear();
+// set.delete(22);
+// console.log(set.size);
+
+for (const val of set) {
+  console.log(val);
+}
