@@ -13,3 +13,11 @@ console.log(map.has("Age"));
 
 console.log(map.get("fullName"));
 console.log(map.get("FullName"));
+
+console.log(map.size);
+
+// map.clear();
+
+map.delete("isTrue");
+console.log(map.size);
+console.log(map);
