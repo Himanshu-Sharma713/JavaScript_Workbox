@@ -22,12 +22,11 @@
 
 // console.log(arr[1][0][2]);
 
-let box = [];
-let val = 0;
+let str = " ";
 for (let i = 1; i <= 5; i++) {
   for (let j = 1; j <= i; j++) {
-    box[val] = j;
+    str = str + " " + "*";
   }
-  console.log(box);
-  val++;
+  console.log(str);
+  str = " ";
 }
