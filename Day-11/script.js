@@ -2,14 +2,8 @@
 
 function changeHeading() {
   const ele = document.getElementsByTagName("h2");
-  ele[0].innerText = "Hello, JavaScript!";
-}
-
-function changePara() {
-  const ele = document.getElementsByClassName("para");
-  ele[0].innerText = "Javascript is Web-based Programming language.";
-}
-function changeSecondHeading() {
-  const ele = document.getElementById("heading");
-  ele.innerHTML = "New Heading";
+  ele[0].innerText = "Himanshu Sharma";
+  ele[0].style.backgroundColor = "Red";
+  ele[0].style.color = "Blue";
+  ele[0].style.fontSize = "50px";
 }
