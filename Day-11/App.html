@@ -5,21 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card</title>
     <style>
-        .contaier{
-            max-width: 100vh;
-            max-height: 100vh;
-        }
-        .card{
-            width: 200px;
-            height: 300px;
-        }
+      .container {
+        display: flex;
+      }
+      .card1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #c560ffc6;
+      }
+      .card2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #abff36c6;
+      }
+      .card3 {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #ff6f6fc6;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="card">CARD_1</div>
-      <div class="card">CARD_2</div>
-      <div class="card">CARD_3</div>
+      <div class="card card1">CARD_1</div>
+      <div class="card card2">CARD_2</div>
+      <div class="card card3">CARD_3</div>
     </div>
+    <br /><br />
+    <button onclick="change()">click here</button>
+    <script src="./App.js"></script>
   </body>
 </html>
