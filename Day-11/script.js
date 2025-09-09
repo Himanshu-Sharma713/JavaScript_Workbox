@@ -9,3 +9,7 @@ function changePara() {
   const ele = document.getElementsByClassName("para");
   ele[0].innerText = "Javascript is Web-based Programming language.";
 }
+function changeSecondHeading() {
+  const ele = document.getElementById("heading");
+  ele.innerHTML = "New Heading";
+}
