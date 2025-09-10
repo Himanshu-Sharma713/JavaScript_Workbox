@@ -4,8 +4,15 @@ function change() {
   let hour = date.getHours();
   let min = date.getMinutes();
   let seconds = date.getSeconds();
+  let timeP = "";
+  if (hour < 12) {
+    timeP = "AM";
+  } else {
+    timeP = "PM";
+    hour = hour - 12;
+  }
 
-  let time = `${hour} : ${min} : ${seconds}`;
+  let time = `${hour} : ${min} : ${seconds}   ${timeP}`;
 
   ele.innerHTML = time;
   setTimeout(() => {
