@@ -4,9 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day_12</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .container {
+        width: 500px;
+        height: 500px;
+        border: 10px solid #0a0064;
+        border-radius: 20px;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #clock {
+        font-size: 50px;
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <span id="clock"></span>
+    <div class="container">
+      <span id="clock"></span>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
