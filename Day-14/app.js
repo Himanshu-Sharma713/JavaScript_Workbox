@@ -10,14 +10,19 @@ async function fetchData() {
     }
   );
 
-  const userData = data.map((user) => {
-    return {
-      name: user.name,
-      email: user.email,
-    };
-  });
+  const userData = (document.getElementById("data").innerHTML = data.map(
+    (user) => {
+      return `<strong>Name = </strong> ${user.name}, <strong> Email = </strong> ${user.email} <br/><br/> `;
+      // {
+      //   name: user.name,
+      //   email: user.email,
+      // };
+    }
+  ));
 
-  console.log(userData);
+  console.log(userData).catch((err) => {
+    console.log(err, "Data Not Fetch...");
+  });
 }
 
 fetchData();
