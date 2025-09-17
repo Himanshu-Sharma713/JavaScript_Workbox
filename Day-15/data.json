@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0",
+    "name": "Abhay Dubey",
+    "age": "24",
+    "contact": "1234567890"
+  },
+  {
+    "id": "1",
+    "name": "Awanish Mishra",
+    "age": "23",
+    "contact": "12398765431"
+  },
+  {
+    "id": "2",
+    "name": "Himanshu Sharma",
+    "age": "22",
+    "contact": "9876543210"
+  }
+]
