@@ -1,3 +1,5 @@
+console.log("===========  Call  ===========");
+
 var person1 = {
   firstName: "Himanshu",
   lastName: "Sharma",
@@ -9,3 +11,7 @@ function test(greeting, year) {
 
 test.call(person1, "Hello");
 test.call(person1, "Hello", 2025);
+
+console.log("===========  Apply  ===========");
+
+test.apply(person1, ["Hello", 2025]);
