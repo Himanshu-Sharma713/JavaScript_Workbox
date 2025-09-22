@@ -15,3 +15,9 @@ test.call(person1, "Hello", 2025);
 console.log("===========  Apply  ===========");
 
 test.apply(person1, ["Hello", 2025]);
+
+console.log("===========  Bind  ===========");
+
+var user = test.bind(person1);
+
+user("Hello", 2025);
