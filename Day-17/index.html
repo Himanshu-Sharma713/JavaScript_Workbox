@@ -3,9 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day - 17</title>
+    <title>Fancy Analog Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: radial-gradient(circle, #1c1f26, #111315);
+      }
+
+      .clock {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border: 15px solid #61dafb;
+        border-radius: 50%;
+        background: #282c34;
+        box-shadow: 0 0 20px #61dafb, inset 0 0 10px #000;
+      }
+
+      .hand {
+        position: absolute;
+        width: 50%;
+        background: #61dafb;
+        top: 50%;
+        transform-origin: 100%;
+        transform: rotate(90deg);
+        transition: all 0.05s cubic-bezier(0.4, 2.3, 0.3, 1);
+      }
+
+      .hour {
+        height: 8px;
+        left: 50%;
+      }
+
+      .minute {
+        height: 5px;
+        left: 50%;
+      }
+
+      .second {
+        height: 2px;
+        background: #ff4c4c;
+        left: 50%;
+      }
+
+      .center {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: #61dafb;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+      }
+    </style>
   </head>
   <body>
-    <script src="./script.js"></script>
+    <div class="clock">
+      <div class="hand hour" id="hour"></div>
+      <div class="hand minute" id="minute"></div>
+      <div class="hand second" id="second"></div>
+      <div class="center"></div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
