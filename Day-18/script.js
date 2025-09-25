@@ -22,3 +22,23 @@ let foo1 = function () {
 };
 
 foo1()();
+
+// higher order function in Javascript...
+
+function length() {
+  l = parseInt(prompt("Enter the Length: "));
+  breadth();
+  function breadth() {
+    b = parseInt(prompt("Enter the breadth: "));
+  }
+}
+
+function rectangle(l, b) {
+  area = l * b;
+  return area;
+}
+
+length();
+
+let ans = rectangle(l, b);
+console.log(`Area of Reactangle: ${ans}`);
