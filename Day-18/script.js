@@ -38,7 +38,16 @@ function rectangle(l, b) {
   return area;
 }
 
-length();
+// length();
 
-let ans = rectangle(l, b);
-console.log(`Area of Reactangle: ${ans}`);
+// let ans = rectangle(l, b);
+// console.log(`Area of Reactangle: ${ans}`);
+
+// Task
+
+const text = document.getElementById("text");
+const btn = document.getElementById("hideButton");
+
+btn.addEventListener("click", function () {
+  text.style.display = "none";
+});
