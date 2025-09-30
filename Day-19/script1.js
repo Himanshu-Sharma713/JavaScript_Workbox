@@ -4,3 +4,4 @@ function change() {
   angle += 60;
   ele[0].style.transform = `rotate(${angle}deg)`;
 }
+ 
