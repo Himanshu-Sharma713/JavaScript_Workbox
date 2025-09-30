@@ -1,7 +1,7 @@
 let i = 0;
 
 function change() {
-  let ele = document.getElementsByTagName("p");
+  let ele = document.getElementsByClassName("head");
   ele[0].innerText = `Count = ${i}`;
   i++;
 }
