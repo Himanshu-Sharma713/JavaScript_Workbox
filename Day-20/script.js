@@ -3,7 +3,16 @@ function changeTime() {
   let h = date.getHours();
   let m = date.getMinutes();
   let s = date.getSeconds();
-  let time = `${h} : ${m} : ${s}`;
+
+  let l = "am";
+
+  if (h > 12) {
+    h = h - 12;
+    l = "pm";
+  }
+
+  let time = `${h} : ${m} : ${s} ${l}`;
+
   let ele = document.getElementsByClassName("clock");
   ele[0].innerHTML = time;
 
