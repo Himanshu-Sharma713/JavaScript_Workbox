@@ -6,5 +6,5 @@ function backgroundRandomColor() {
   let b = Math.floor(Math.random() * 256);
 
   let rc = `rgb(${r}, ${g}, ${b})`;
-  box[0].style.backgroundRandomColor = rc;
+  box[0].style.backgroundColor = rc;
 }
