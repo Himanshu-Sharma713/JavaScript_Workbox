@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Abhay Dubey",
+    "age": 24,
+    "course": "CSE"
+  },
+  {
+    "name": "Deepak Kumar",
+    "age": 24,
+    "course": "IT"
+  },
+  {
+    "name": "Pooja Rani",
+    "age": 21,
+    "course": "Civil"
+  },
+  {
+    "name": "Awanish",
+    "age": 25,
+    "course": "ME"
+  },
+  {
+    "name": "Rajkumar",
+    "age": 23,
+    "course": "IT"
+  }
+]
