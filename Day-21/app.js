@@ -10,13 +10,13 @@ console.log(
   "========================================================================="
 );
 
-function greet(name, callback) {
+function callbackFunction(name) {
   console.log("Hello, " + name);
-  callback();
 }
 
-function sayBye() {
-  console.log("Goodbye!");
+function OuterFunction(callback) {
+  let name = prompt("Enter your Name: ");
+  callback(name);
 }
 
-greet("Ajay", sayBye);
+OuterFunction(callbackFunction);
