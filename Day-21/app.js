@@ -4,4 +4,19 @@ async function fetchData() {
   console.log(res);
 }
 
-fetchData();
+// fetchData();
+
+console.log(
+  "========================================================================="
+);
+
+function greet(name, callback) {
+  console.log("Hello, " + name);
+  callback();
+}
+
+function sayBye() {
+  console.log("Goodbye!");
+}
+
+greet("Ajay", sayBye);
