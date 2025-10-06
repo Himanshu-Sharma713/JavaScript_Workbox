@@ -15,7 +15,7 @@ function callbackFunction(name) {
 }
 
 function OuterFunction(callback) {
-  let name = prompt("Enter your Name: ");
+  let name = prompt("Please, enter your Name: ");
   callback(name);
 }
 

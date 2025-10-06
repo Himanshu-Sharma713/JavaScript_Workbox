@@ -7,4 +7,10 @@ function backgroundRandomColor() {
 
   let rc = `rgb(${r}, ${g}, ${b})`;
   box[0].style.backgroundColor = rc;
+
+  setTimeout(() => {
+    backgroundRandomColor();
+  }, 1000);
 }
+
+// backgroundRandomColor();
