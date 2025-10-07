@@ -39,3 +39,30 @@ console.log(crr);
 console.log(arr);
 
 console.log("============================================================");
+
+let n = arr.length;
+console.log("Length", n);
+
+let n1 = arr.find((e) => {
+  e > 5;
+});
+console.log(n1);
+
+let n2 = arr.findIndex((x) => x == 7);
+console.log("find index: ", n2);
+
+arr.forEach((e) => {
+  console.log(e);
+});
+
+console.log(arr.reverse());
+console.log(arr.reverse());
+
+console.log(arr.includes(6));
+
+let n3 = arr.slice(3, 6);
+console.log(n3);
+
+console.log(arr.toString());
+
+console.log("============================================================");
