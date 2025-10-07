@@ -66,3 +66,4 @@ console.log(n3);
 console.log(arr.toString());
 
 console.log("============================================================");
+console.log(arr);
