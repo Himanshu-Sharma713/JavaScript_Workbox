@@ -18,3 +18,15 @@ let brr = arr.map((e) => {
 });
 
 console.log(brr);
+
+console.log("============================================================");
+
+let a = arr.pop();
+console.log(a);
+console.log(arr);
+
+let b = arr.push(a);
+console.log(b);
+console.log(arr);
+
+console.log("============================================================");
