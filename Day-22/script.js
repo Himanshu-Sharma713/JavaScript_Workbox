@@ -30,3 +30,12 @@ console.log(b);
 console.log(arr);
 
 console.log("============================================================");
+
+let crr = arr.filter((e) => {
+  return e % 2 === 0;
+});
+
+console.log(crr);
+console.log(arr);
+
+console.log("============================================================");
