@@ -11,8 +11,8 @@ for (const key in student) {
 
 console.log("=======================================================");
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let arr = [9, 18, 27, 36, 45, 54, 63, 72, 81, 90];
 
-arr.forEach((e) => console.log(e));
+arr.forEach((num, index) => console.log(`9 X ${index + 1} = ${num}`));
 
 console.log("=======================================================");
