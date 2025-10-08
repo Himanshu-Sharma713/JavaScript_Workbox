@@ -32,3 +32,5 @@ let str = "Himanshu";
 console.log(str);
 console.log(str.toUpperCase());
 console.log(str.toLowerCase());
+
+console.log("=======================================================");
