@@ -26,3 +26,9 @@ let sum = arr1.reduce((accumlator, currentValue) => {
 console.log("Sum is: ", sum);
 
 console.log("=======================================================");
+
+let str = "Himanshu";
+
+console.log(str);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
